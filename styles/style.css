@@ -1,36 +1,11 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-html {
-    width: 100%;
-}
-
-section {
-    padding-top: 10px;
-}
-
-#logo > img {
-    width: 100px;
-}
-
-#header-section {
-    text-align: center;
-    padding: 20px;
-}
-
-table {
-    margin: auto;
-}
-
-table, td, th {
-    border: solid black 1px;
-    border-collapse: collapse;
-}
-
-td, th {
-    padding: 10px;
-    font-size: 10px;
+:root {
+    --white: #fff;
+    --secondary-blue: #1e1e7d;
+    --primary-blue: #5151f1;
+    --normal-size: 1em;
+    --semi-normal-size: 1.25em;
+    --medium-normal-size: 1.5em;
+    --large-size: 2em;
+    --null-value: 0;
+    --mini-size: 0.5em;
 }
