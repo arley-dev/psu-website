@@ -10,11 +10,13 @@ main {
     background-position: center;
     background-size: cover;
     display: flex;
+    font-family: "Tauri", sans-serif;
 }
+
 
 #banner-image img {
     width: 45em;
-    margin: 1em;
+    margin: 0 20px;
 }
 
 #banner-image, #banner-label {
@@ -22,9 +24,203 @@ main {
 }
 
 #banner-label {
-	border-radius: 50em 0px 0px 0px;
-    opacity: 80%;
-	height: auto;
-	width: auto;
-    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin: auto;
+    margin-right: var(--large-size);
 }
+
+#banner-label hr {
+    width: auto;
+    border: solid var(--white);
+}
+
+#header-label h1 {
+    font-size: calc(var(--large-size) + var(--large-size));
+}
+
+#label {
+    margin: 5.25em 0;
+}
+
+#sub-label {
+    font-size: var(--medium-normal-size);
+}
+
+#sub-label h2, #sub-label h3 {
+    margin: var(--mini-size) 0;
+}
+
+#source-label {
+    background-color: var(--white);
+    opacity: 80%;
+    padding: var(--normal-size);
+    width: auto;
+    height: auto;
+    flex: 1 1;
+}
+
+#source-label hr {
+    margin: var(--mini-size) 0;
+    border: solid black;
+}
+
+
+@media screen and (max-width: 1330px) {
+    #header-label h1 {
+        font-size: 3em;
+    }
+    #sub-label h3, #sub-label h2 {
+        font-size: 1em;
+        margin: 0;
+    }
+    #label {
+        margin: 6em 0;
+    }
+    #banner-image img {
+        width: 40em;
+    }
+}
+
+@media screen and (max-width: 1196px) {
+    #header-label h1 {
+        font-size: 2em;
+    }
+    #sub-label h3, #sub-label h2 {
+        font-size: .5em;
+    }
+    #banner-image {
+        text-align: center;
+        margin: auto;
+    }
+    #banner-image img {
+        width: 30em;
+    }
+    #label {
+        margin: 4em 0;
+    }
+}
+
+@media screen and (max-width: 1048px) {
+    #source-label h2 {
+        font-size: 1.25em;
+    }
+    #source-label h3 {
+        font-size: 1em;
+    }
+    #source-label hr, #header-label hr {
+        border-width: 2px;
+    }
+    #label {
+        margin: 4.5em 0;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    #banner-image img {
+        width: 25em;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    #header-label h1 {
+        font-size: 1.5em;
+    }
+    #label hr, #source-label hr {
+        border-width: 1px;
+    }
+    #source-label h2 {
+        font-size: 1.1em;
+    }
+    #source-label h3 {
+        font-size: .7em;
+    }
+    #banner-image img {
+        width: 19em;
+    }
+    #label {
+        margin: 1.6em 0;
+    }
+}
+
+@media screen and (max-width: 704px) {
+    #header-label h1 {
+        font-size: 1em;
+    }
+    #sub-label h3, #sub-label h2 {
+        font-size: 0.4em;
+    }
+    #source-label h2 {
+        font-size: 0.7em;
+    }
+    #source-label h3 {
+        font-size: 0.5em;
+    }
+    #banner-image img {
+        width: 15em;
+    }
+    #label {
+        margin: 1.2em 0;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    #header-label h1 {
+        font-size: 0.8em;
+    }
+    #sub-label h3, #sub-label h2 {
+        font-size: 0.3em;
+    }
+    #source-label h2 {
+        font-size: 0.5em;
+    }
+    #source-label h3 {
+        font-size: 0.3em;
+    }
+    #banner-image img {
+        width: 13em;
+    }
+    #label {
+        margin: 1.1em 0;
+    }
+}
+
+@media screen and (max-width: 466px) {
+    #header-label h1 {
+        font-size: 0.6em;
+    }
+    #sub-label h3, #sub-label h2 {
+        font-size: 0.2em;
+    }
+    #source-label h2 {
+        font-size: 0.4em;
+    }
+    #source-label h3 {
+        font-size: 0.3em;
+    }
+    #source-label {
+        padding: 0.5em;
+    }
+    #banner-image img {
+        width: 11em;
+    }
+    #banner-label {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    #banner-image img {
+        width: 10em;
+    }
+    #source-label {
+        padding: 0.3em;
+    }
+    #label {
+        margin: 1em 0;
+    }
+}
+
+
+
