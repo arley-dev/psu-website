@@ -51,7 +51,7 @@ td#label p{
         font-size: var(--normal-size);
     }
     #article-header h2 {
-        font-size: 1.5em;
+        font-size: var(--medium-normal-size);
     }
     td#label {
         font-size: var(--normal-size);
@@ -87,7 +87,7 @@ td#label p{
         font-size: 0.6em;
     }
     #article-list a {
-        font-size: 0.5em;
+        font-size: var(--medium-normal-size);
     }
     .main-section-details img {
         width: 6em;

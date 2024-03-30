@@ -12,7 +12,7 @@
 
 #banner-image img {
     width: 45em;
-    margin: 0 20px;
+    margin: var(--null-value) 20px;
 }
 
 #banner-image, #banner-label {
@@ -37,7 +37,7 @@
 }
 
 #label {
-    margin: 5.25em 0;
+    margin: 5.25em var(--null-value);
 }
 
 #sub-label {
@@ -45,7 +45,7 @@
 }
 
 #sub-label h2, #sub-label h3 {
-    margin: var(--mini-size) 0;
+    margin: var(--mini-size) var(--null-value);
 }
 
 #source-label {
@@ -58,21 +58,21 @@
 }
 
 #source-label hr {
-    margin: var(--mini-size) 0;
+    margin: var(--mini-size) var(--null-value);
     border: solid black;
 }
 
 
 @media screen and (max-width: 1330px) {
     #header-label h1 {
-        font-size: 3em;
+        font-size: calc(var(--large-size) + var(--normal-size));
     }
     #sub-label h3, #sub-label h2 {
         font-size: 1em;
-        margin: 0;
+        margin: var(--null-value);
     }
     #label {
-        margin: 6em 0;
+        margin: 6em var(--null-value);
     }
     #banner-image img {
         width: 40em;
@@ -81,10 +81,10 @@
 
 @media screen and (max-width: 1196px) {
     #header-label h1 {
-        font-size: 2em;
+        font-size: var(--large-size);
     }
     #sub-label h3, #sub-label h2 {
-        font-size: .5em;
+        font-size: var(--medium-normal-size);
     }
     #banner-image {
         text-align: center;
@@ -94,22 +94,22 @@
         width: 30em;
     }
     #label {
-        margin: 4em 0;
+        margin: calc(var(--large-size) + var(--large-size)) var(--null-value);
     }
 }
 
 @media screen and (max-width: 1048px) {
     #source-label h2 {
-        font-size: 1.25em;
+        font-size: var(--semi-normal-size);
     }
     #source-label h3 {
-        font-size: 1em;
+        font-size: var(--normal-size);
     }
     #source-label hr, #header-label hr {
         border-width: 2px;
     }
     #label {
-        margin: 4.5em 0;
+        margin: 4.5em var(--null-value);
     }
 }
 
@@ -136,13 +136,13 @@
         width: 19em;
     }
     #label {
-        margin: 1.6em 0;
+        margin: 1.6em var(--null-value);
     }
 }
 
 @media screen and (max-width: 704px) {
     #header-label h1 {
-        font-size: 1em;
+        font-size: var(--normal-size);
     }
     #sub-label h3, #sub-label h2 {
         font-size: 0.4em;
@@ -157,7 +157,7 @@
         width: 15em;
     }
     #label {
-        margin: 1.2em 0;
+        margin: 1.2em var(--null-value);
     }
 }
 
@@ -169,7 +169,7 @@
         font-size: 0.3em;
     }
     #source-label h2 {
-        font-size: 0.5em;
+        font-size: var(--medium-normal-size);
     }
     #source-label h3 {
         font-size: 0.3em;
@@ -178,7 +178,7 @@
         width: 13em;
     }
     #label {
-        margin: 1.1em 0;
+        margin: 1.1em var(--null-value);
     }
 }
 
@@ -196,13 +196,13 @@
         font-size: 0.3em;
     }
     #source-label {
-        padding: 0.5em;
+        padding: var(--medium-normal-size);
     }
     #banner-image img {
         width: 11em;
     }
     #banner-label {
-        margin-right: 1em;
+        margin-right: var(--normal-size);
     }
 }
 
@@ -214,7 +214,7 @@
         padding: 0.3em;
     }
     #label {
-        margin: 1em 0;
+        margin: var(--normal-size) var(--null-value);
     }
 }
 

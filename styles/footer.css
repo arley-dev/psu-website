@@ -10,17 +10,17 @@
 .fake-credits h2 {
     color: rgb(100, 99, 99);
     font-size: 0.8em;
-    margin: auto 0;
+    margin: auto var(--null-value);
 }
 
 .fake-credits img {
-    margin: auto 1em;
-    width: 2em;
+    margin: auto var(--normal-size);
+    width: var(--large-size);
 }
 
 @media screen and (max-width: 810px) {
     .fake-credits img {
-        width: 1em;
+        width: var(--normal-size);
     }
     .fake-credits h2 {
         font-size: 0.4em;
@@ -29,6 +29,6 @@
 
 @media screen and (max-width: 466px) {
     .fake-credits h2 {
-        font-size: 0.5em;
+        font-size: var(--mini-size);
     }
 }

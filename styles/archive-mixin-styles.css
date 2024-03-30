@@ -21,7 +21,7 @@
 }
 
 #body-archive li {
-    margin: 0 3em;
+    margin: var(--null-value) 3em;
 }
 
 #body-archive a:hover {
@@ -30,27 +30,27 @@
 }
 
 #body-archive h3 {
-    margin: 1em 0;
-    font-size: 1.5em;
+    margin: var(--normal-size) var(--null-value);
+    font-size: var(--medium-normal-size);
 }
 
 @media screen and (max-width: 810px) {
     #archive-header {
-        font-size: 1.5em;
+        font-size: var(--medium-normal-size);
     }
     #body-archive h3 {
-        font-size: 1em;
+        font-size: var(--normal-size);
     }
 }
 
 @media screen and (max-width: 555px) {
     #archive-header {
-        font-size: 1em;
+        font-size: var(--normal-size);
     }
     #body-archive h3 {
         font-size: 0.6em;
     }
     #body-archive li {
-        margin: 0 1em;
+        margin: var(--null-value) var(--normal-size);
     }
 }
