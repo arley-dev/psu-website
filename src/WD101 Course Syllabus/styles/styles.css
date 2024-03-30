@@ -1,0 +1,47 @@
+.no-padding {
+    padding: 0px !important;
+}
+
+.no-border-radius {
+    border-radius: 0px !important;
+}
+
+#type {
+    display: flex;
+    flex-direction: row;
+}
+
+#type div {
+    display: flex;
+    border: none;
+    flex: 1 1;
+    margin: auto 0px;
+}
+
+#type div * {
+    padding: 0px 5px;
+}
+
+.no-list-dot {
+    list-style-type: none;
+}
+
+.t-row ol {
+    margin: 1em 3em;
+}
+
+.no-text-wrapping {
+    text-wrap: nowrap;
+}
+
+.w-table-header-style,
+.w-table-header-style > td {
+    border: solid #2389cd 2px !important;
+    background-color: rgb(120, 193, 241);
+}
+
+/* rgb(120, 193, 241) */
+
+.no-list-type {
+    list-style-type: none;
+}

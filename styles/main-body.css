@@ -1,0 +1,113 @@
+.main-section-details {
+    padding: var(--large-size);
+    background-image: linear-gradient(to bottom, var(--primary-blue), #9292c4);
+}
+
+.main-section-details img {
+    width: 20em;
+}
+
+td#label {
+    width: 20em;
+    padding: 5em 5em;
+    text-align: justify;
+    font-size: 1.5em;
+    color: var(--white);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+td#label h2, #article-header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td#label p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#article-header h2 {
+    text-align: right;
+    font-size: var(--large-size);
+    color: var(--white);
+}
+
+#article-list a {
+    text-decoration: var(--white) underline;
+    color: rgb(237, 235, 235);
+    font-size: 1.2em;
+}
+
+#article-list a:hover {
+    color: rgb(182, 182, 182);
+}
+
+#article-list li {
+    margin: var(--normal-size) 0;
+}
+
+
+@media screen and (max-width: 1330px) {
+    #article-list a {
+        font-size: var(--normal-size);
+    }
+    #article-header h2 {
+        font-size: 1.5em;
+    }
+    td#label {
+        font-size: var(--normal-size);
+    }
+}
+
+@media screen and (max-width: 1048px) {
+    .main-section-details img {
+        width: 15em;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    td#label {
+        font-size: 0.8em
+    }
+    #article-list a {
+        font-size: 0.8em;
+    }
+    #article-header h2 {
+        font-size: var(--normal-size);
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .main-section-details img {
+        width: 10em;
+    }
+}
+
+@media screen and (max-width: 704px) {
+    td#label {
+        font-size: 0.6em;
+    }
+    #article-list a {
+        font-size: 0.5em;
+    }
+    .main-section-details img {
+        width: 6em;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    td#label {
+        font-size: 0.4em;
+    }
+    #article-list a {
+        font-size: 0.4em;
+    }
+    #article-header h2 {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 466px) {
+    .main-section-details img {
+        width: 5em;
+    }
+}

@@ -1,0 +1,56 @@
+.main-section-details {
+    background-image: linear-gradient(to bottom, #3939ff, #9292c4);
+}
+
+#archive-header, #body-archive h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#archive-header {
+    color: var(--white);
+    font-size: 2em;
+}
+
+#body-archive a {
+    text-decoration: underline var(--white);
+    color: var(--white);
+}
+
+#body-archive ul {
+    list-style: none;
+}
+
+#body-archive li {
+    margin: 0 3em;
+}
+
+#body-archive a:hover {
+    color: rgb(198, 197, 197);
+    text-decoration: underline rgb(198, 197, 197);
+}
+
+#body-archive h3 {
+    margin: 1em 0;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 810px) {
+    #archive-header {
+        font-size: 1.5em;
+    }
+    #body-archive h3 {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    #archive-header {
+        font-size: 1em;
+    }
+    #body-archive h3 {
+        font-size: 0.6em;
+    }
+    #body-archive li {
+        margin: 0 1em;
+    }
+}

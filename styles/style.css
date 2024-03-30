@@ -1,13 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Herr+Von+Muellerhoff&family=Pinyon+Script&family=Sacramento&family=Tangerine:wght@400;700&family=Tauri&display=swap');
-
 * {
     margin: var(--null-value);
     padding: var(--null-value);
-}
-
-@keyframes banner-background-transistion {
-    from { opacity: 0%; }
-    to { opacity: 100%; }
 }
 
 :root {
@@ -20,4 +13,13 @@
     --large-size: 2em;
     --null-value: 0;
     --mini-size: 0.5em;
+}
+
+.underline-container {
+    border: solid var(--white);
+    border-top: var(--null-value);
+    border-left: var(--null-value);
+    border-right: var(--null-value);
+    padding: var(--mini-size) var(--null-value);
+    margin-bottom: var(--normal-size);
 }

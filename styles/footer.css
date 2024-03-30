@@ -1,0 +1,34 @@
+.fake-credits {
+    text-align: right;
+    padding: var(--normal-size);
+    background-image: linear-gradient(to bottom, #9898e5, rgb(237, 237, 186));
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: right;
+}
+
+.fake-credits h2 {
+    color: rgb(100, 99, 99);
+    font-size: 0.8em;
+    margin: auto 0;
+}
+
+.fake-credits img {
+    margin: auto 1em;
+    width: 2em;
+}
+
+@media screen and (max-width: 810px) {
+    .fake-credits img {
+        width: 1em;
+    }
+    .fake-credits h2 {
+        font-size: 0.4em;
+    }
+}
+
+@media screen and (max-width: 466px) {
+    .fake-credits h2 {
+        font-size: 0.5em;
+    }
+}

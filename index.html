@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PSU Asingan</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/banner.css">
+    <link rel="stylesheet" href="./styles/main-body.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 
 <body>
@@ -24,41 +26,115 @@
         <div id="nav-list">
             <nav>
                 <ul>
-                    <li><a href="#">Activities</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./src/archive.html">Archives</a></li>
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
     <main>
-        <div id="banner-background">
-            <div id="banner-image">
-                <img src="./img/university-building.jpg" alt="banner">
-            </div>
-            <div id="banner-label">
-                <div id="label">
-                    <div id="header-label">
-                        <h1>WELCOME</h1>                    
+        <section id="banner-container">
+            <div id="banner-background">
+                <div id="banner-image">
+                    <img src="./img/university-building.jpg" alt="banner">
+                </div>
+                <div id="banner-label">
+                    <div id="label">
+                        <div id="header-label">
+                            <h1>WELCOME</h1>
+                        </div>
+                        <hr>
+                        <div id="sub-label">
+                            <h2>PANGASINAN STATE UNIVERSITY</h2>
+                            <h3>ASINGAN CAMPUS</h3>
+                        </div>
                     </div>
-                    <hr>
-                    <div id="sub-label">
-                        <h2>PANGASINAN STATE UNIVERSITY</h2>
-                        <h3>ASINGAN CAMPUS</h3>                    
-                    </div>                    
-                </div>
-                <div id="source-label">
-                    <h2>Source</h2>
-                    <hr>
-                    <h3>PSU - Asingan Campus Building</h3>
-                    <h3>Asingan, Pangasinan</h3>
-                    <h3>2022</h3>
+                    <div id="source-label">
+                        <h2>Source</h2>
+                        <hr>
+                        <h3>PSU - Asingan Campus Building</h3>
+                        <h3>Asingan, Pangasinan</h3>
+                        <h3>2022</h3>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="main-section-details">
+            <table>
+                <tr>
+                    <td><img src="./img/Pangasinan_State_University_Asingan_Campus_Old.jpg" alt="Front campus"></td>
+                    <td id="label" rowspan="5">
+                        <div id="header-label-history" class="underline-container">
+                            <h2>History</h2>
+                        </div>
+                        <div>
+                            <p>
+                                The advancement of education in Pangasinan, particularly in the establishment
+                                and growth of colleges and universities, has been remarkable. Among these
+                                institutions, Pangasinan State University (PSU) &dash; Asingan Campus stands out
+                                as a progressive college. Its roots trace back to 1962 when it began as the
+                                Binalonan High School Annex, located within the premises of the former Pacifican
+                                Institute of Asingan. The campus emerged as Asingan High School in 1963 following
+                                the acquisition of its own site, generously donated by the Concha Miguel family,
+                                through the enactment of R.A. No. 3995 in 1967, sponsored by Representative Luciano Millan.
+                                Subsequently, it evolved into Asingan School of Arts and Trades (ASAT) under the Bureau of
+                                Vocational Education, expanding its offerings to include post-secondary courses such as
+                                Associate in Industrial Technology and college degree programs like Bachelor in Industrial
+                                Technology (BIT) and Bachelor of Science in Industrial Education (BSIE).
+                            </p>                            
+                        </div>
+
+                    </td>
+                    <td rowspan="5" id="articles">  
+                        <div id="article-header" class="underline-container">
+                            <h2>Articles</h2>
+                        </div>
+                        <div id="article-list">
+                            <ul>
+                                <li>
+                                    <a href="https://www.psurj.org/wp-content/uploads/2019/02/JEMSS-2019-010.pdf">
+                                        Awareness and acceptability of the Pangasinan State University vision, mission,
+                                        campus goals and the program objectives
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://paressu.org/online/index.php/aseanjbh/article/view/244">
+                                        Tracer Study on the Employability of Business Administration Graduates
+                                        (2017-2019) of Pangasinan State University Lingayen Campus
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.psurj.org/wp-content/uploads/2018/01/JEMSS_0007.pdf">
+                                        Language Learning Strategies of BSE&dash;English Major Students of PSU Asingan
+                                        Campus
+                                    </a>
+                                </li>
+                                <li><a href="https://pubs.aip.org/aip/acp/article/2602/1/030022/2890980">Assessment on the effectiveness of learning management system using sentiment analysis</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="./img/campus-back-side.jpg" alt="back campus"></td>
+                </tr>
+                <tr>
+                    <td><img src="./img/1111-social-spaces--scaled.jpg" alt="random scene 0"></td>
+                </tr>
+                <tr>
+                    <td><img src="./img/DSC_0275-scaled.jpg" alt="random scene 1"></td>
+                </tr>
+                <tr>
+                    <td><img src="./img/random-scene-0.jpg" alt="random scene 2"></td>
+                </tr>
+            </table>
+        </section>
     </main>
-
+    <footer>
+        <div class="fake-credits">
+            <h2>Pangasinan State University &dash; Asingan Campus &#169; 2024</h2>
+            <a href="https://www.facebook.com/psuasinganofficial" target="_blank"><img src="./svg/fb.svg"></a>
+        </div>
+    </footer>
 </body>
-
 </html>

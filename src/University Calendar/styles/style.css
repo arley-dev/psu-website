@@ -1,0 +1,133 @@
+table, th, td {
+    border: solid 1px;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td, th {
+    text-align: center;
+    padding: 10px;
+    text-wrap: nowrap;
+    font-size: 10px;
+}
+
+th {
+    font-size: 90%;
+}
+
+table {
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+
+
+section {
+    display: flex;
+}
+
+#first-container,
+#middle-container,
+#second-container {
+    margin: auto;
+}
+
+#first-sem, #second-sem, #mid-sem {
+    padding: 10px;
+}
+
+#middle-container {
+    margin: 0px auto;
+}
+
+#mid-sem {
+    display: flex;
+}
+
+#mid-sem table {
+    margin: 0px 20px;
+}
+
+.borderize { 
+    border: solid black 1px;
+}
+
+#header-section > div {
+    margin: 1em auto;
+}
+
+.header-container {
+    text-align: center;
+    background-image: linear-gradient(90deg, rgb(227, 226, 226), rgb(150, 150, 150));
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px rgb(105, 104, 104), 3px 2px 0px rgb(141, 139, 139);
+    font-size: 70%;
+    color: rgb(23, 23, 23);
+}
+
+.smooth-border {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.smooth-border-bottom {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.no-bottom-border {
+    border-bottom: 0px;
+}
+
+.no-border {
+    border: none;
+}
+
+.no-border td {
+    border: none;
+}
+
+.widen-padding th, .widen-padding td {
+    padding: 10px;
+}
+
+#footer-container {
+    display: flex;
+    margin: auto;
+}
+
+#footer-container div {
+    margin: 0px 20px;
+}
+
+#legend {
+    font-size: 8px;
+}
+
+#legend h3 {
+    border: solid black 1px;
+    width: 10px;
+    text-align: center;
+    margin: 5px 0px;
+    padding: 3px;
+}
+
+#legend > div {
+    display: flex;
+}
+
+#legend h2 {
+    margin: auto 0px;
+}
+
+h3.holiday-remark {
+    background-color: rgb(117, 245, 117);
+    color: rgb(255, 150, 150);
+}
+
+h3.activity-remark {
+    background-color: rgb(228, 228, 255);
+    
+}
+
+h3.sunday-remark {
+    color: rgb(244, 114, 114);
+}
