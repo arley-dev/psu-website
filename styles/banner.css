@@ -50,10 +50,8 @@
 
 #source-label {
     background-color: var(--white);
-    opacity: 80%;
+
     padding: var(--normal-size);
-    width: auto;
-    height: auto;
     flex: 1 1;
 }
 
@@ -82,9 +80,6 @@
 @media screen and (max-width: 1196px) {
     #header-label h1 {
         font-size: var(--large-size);
-    }
-    #sub-label h3, #sub-label h2 {
-        font-size: var(--medium-normal-size);
     }
     #banner-image {
         text-align: center;
@@ -117,6 +112,12 @@
     #banner-image img {
         width: 25em;
     }
+    #sub-label {
+        font-size: var(--normal-size);
+    }
+    #label {
+        margin: 2em 0;
+    }
 }
 
 @media screen and (max-width: 810px) {
@@ -135,6 +136,10 @@
     #banner-image img {
         width: 19em;
     }
+    #sub-label {
+        font-size: var(--mini-size);
+    }
+
     #label {
         margin: 1.6em var(--null-value);
     }
@@ -169,7 +174,7 @@
         font-size: 0.3em;
     }
     #source-label h2 {
-        font-size: var(--medium-normal-size);
+        font-size: var(--normal-size);
     }
     #source-label h3 {
         font-size: 0.3em;

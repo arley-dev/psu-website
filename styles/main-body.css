@@ -49,12 +49,12 @@ td#label p{
 @media screen and (max-width: 1330px) {
     #article-list a {
         font-size: var(--normal-size);
-    }
+    }   
     #article-header h2 {
         font-size: var(--medium-normal-size);
     }
     td#label {
-        font-size: var(--normal-size);
+        font-size: var(--medium-normal-size);
     }
 }
 
@@ -62,15 +62,15 @@ td#label p{
     .main-section-details img {
         width: 15em;
     }
-}
-
-@media screen and (max-width: 928px) {
     td#label {
         font-size: 0.8em
     }
     #article-list a {
         font-size: 0.8em;
     }
+}
+
+@media screen and (max-width: 928px) {
     #article-header h2 {
         font-size: var(--normal-size);
     }
@@ -80,29 +80,26 @@ td#label p{
     .main-section-details img {
         width: 10em;
     }
-}
-
-@media screen and (max-width: 704px) {
     td#label {
         font-size: 0.6em;
     }
-    #article-list a {
-        font-size: var(--medium-normal-size);
-    }
-    .main-section-details img {
-        width: 6em;
-    }
 }
 
-@media screen and (max-width: 555px) {
-    td#label {
-        font-size: 0.4em;
+@media screen and (max-width: 704px) {
+    .main-section-details img {
+        width: 6em;
     }
     #article-list a {
         font-size: 0.4em;
     }
     #article-header h2 {
         font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    td#label {
+        font-size: 0.4em;
     }
 }
 
